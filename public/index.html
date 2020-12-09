@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <link rel="icon" href="%PUBLIC_URL%/favicon.png" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="theme-color" content="#000000" />
+  <meta name="description" content="Web site created using create-react-app" />
+  <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
+  <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" /> -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
+  <!-- Removing Cache -->
+  <meta http-equiv="Cache-Control" content="no-cache" />
+  <meta http-equiv='expires' content='-1'>
+  <meta http-equiv="Pragma" content="no-cache" />
+  <!--
+      manifest.json provides metadata used when your web app is installed on a
+      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
+    -->
+  <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+  <script src="https://unpkg.com/react/umd/react.production.min.js" crossorigin></script>
+
+<script
+  src="https://unpkg.com/react-dom/umd/react-dom.production.min.js"
+  crossorigin></script>
+
+<script
+  src="https://unpkg.com/react-bootstrap@next/dist/react-bootstrap.min.js"
+  crossorigin></script>
+  <!--
+      Notice the use of %PUBLIC_URL% in the tags above.
+      It will be replaced with the URL of the `public` folder during the build.
+      Only files inside the `public` folder can be referenced from the HTML.
+
+      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
+      work correctly both with client-side routing and a non-root public URL.
+      Learn how to configure a non-root public URL by running `npm run build`.
+    -->
+  <title>AesPortal</title>
+
+  <style>
+    #browserError {
+      text-align: center;
+      margin: 5% 20%;
+    }
+
+    .warning-content {
+      padding-top: 15px;
+      font-size: 20px;
+      color: #656565;
+    }
+  </style>
+</head>
+
+<body style="font-family: 'Roboto', sans-serif;">
+  <noscript>You need to enable JavaScript to run this app.</noscript>
+  <div id="root"></div>
+  <!--
+      This HTML file is a template.
+      If you open it directly in the browser, you will see an empty page.
+
+      You can add webfonts, meta tags, or analytics to this file.
+      The build step will place the bundled scripts into the <body> tag.
+
+      To begin the development, run `npm start` or `yarn start`.
+      To create a production bundle, use `npm run build` or `yarn build`.
+
+
+    -->
+
+  <div id="browserError" style="display: none;">
+    <img src="%PUBLIC_URL%/logo.png" width="150px" style="margin-bottom: 20px;" alt="Avaya Logo">
+    <h2 style="font-size: 25px; font-weight: 600;">Not Compatible </h2>
+    <h3 style="font-size: 20px; "> Current Version : <span id="result"></span></h3>
+    <p class="warning-content">Your Current browser or a version cannot run our content. Please make sure your browser
+      fully updated or try a different browser.</p>
+  </div>
+</body>
+
+<script>
+  var x = document.getElementById("browserError");
+  var root = document.getElementById("root");
+  var version = detectIE();
+  console.log("version  --->", version)
+  if (version === false) {
+    x.style.display = "none";
+  } else if (version >= 12) {
+    if (version < 18) {
+      root.style.display = "none";
+      x.style.display = "block";
+      document.getElementById('result').innerHTML = 'Edge ' + version;
+    }
+    else {
+      x.style.display = "none";
+    }
+  } else {
+    if (version < 11) {
+      x.style.display = "block";
+      document.getElementById('result').innerHTML = 'Internet Explorer ' + version;
+    }
+    else {
+      x.style.display = "none";
+    }
+  }
+
+  function detectIE() {
+    var ua = window.navigator.userAgent;
+    var msie = ua.indexOf('MSIE ');
+    if (msie > 0) {
+      // IE 10 or older => return version number
+      return parseInt(ua.substring(msie + 5, ua.indexOf('.', msie)), 10);
+    }
+    var trident = ua.indexOf('Trident/');
+    if (trident > 0) {
+      // IE 11 => return version number
+      var rv = ua.indexOf('rv:');
+      return parseInt(ua.substring(rv + 3, ua.indexOf('.', rv)), 10);
+    }
+    var edge = ua.indexOf('Edge/');
+    if (edge > 0) {
+      // Edge (IE 12+) => return version number
+      return parseInt(ua.substring(edge + 5, ua.indexOf('.', edge)), 10);
+    }
+    // other browser
+    return false;
+  }    
+</script>
+
+</html>

@@ -1,0 +1,29 @@
+// ########################  Access Denied #######################
+.access-denied-block {
+    margin          : 70px auto;
+    max-width       : 500px;
+    height          : 100px;
+    background-color: #fff;
+    border-radius   : 3px;
+}
+
+.access-denied-block>.mat-card {
+    max-width       : 500px;
+    padding         : 20px;
+    border          : 1px solid #b6b6b6;
+    background-color: #fafafa;
+}
+
+.access-denied-block>.mat-card>.heading-one {
+    text-align : center;
+    font-size  : 25px;
+    font-weight: 600;
+    color      : #727272;
+}
+
+.access-denied-block>.mat-card>.heading-two {
+    text-align: center;
+    color     : #9c9c9c;
+}
+
+// ########################  End Access Denied #######################

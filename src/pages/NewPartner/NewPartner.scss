@@ -1,0 +1,42 @@
+// .partner_search{
+//       align-items: center;
+//       display: flex;
+//       flex-direction: column;
+//       height: calc(100vh - var(--ntp-one-google-bar-height));
+//       position: relative;
+// }
+.partner-search p {
+      
+            align-items: center;
+            display: flex;
+            flex-direction: column;
+          //   height: calc(100vh - var(--ntp-one-google-bar-height));
+             height: 40px;
+            position: relative;
+            background-color: yellow;
+      
+
+}
+#pid{
+  height: 75px;
+}
+
+.thisispartnersearch{
+  height: 100px;
+  align-items: center;
+  position: relative;
+  display: flex;
+  
+}
+.thisisimage{
+  // height: 200px;
+  // width: 50%;
+  // align-items: center;
+  // padding-left: 300px;
+  // margin-left: auto;
+  // margin-right: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}

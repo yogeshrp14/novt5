@@ -1,0 +1,236 @@
+@import '../dashboard/dashboard.scss';
+
+.table-section-search-quote {
+    display: grid;
+    display: -ms-grid;
+    grid-gap: 30px 10px;
+    margin-bottom: 30px;
+
+    @include breakpoint(mobile) {}
+
+    .table-search-quote {
+        position: relative;
+
+        input {
+            border: 1px solid $color-medium-gray;
+            outline: none;
+            color: $color-black;
+            padding: 9px 10px 8px;
+            background: $color-white;
+            width: 10%;
+            font-family: 'HCo Gotham SSm', sans-serif;
+            font-size: 12px;
+            line-height: 22px;
+            font-weight: 200;
+            // margin-right: 5px;
+            margin-right: 7%;
+            @extend .text-tiny-body;
+        }
+    }
+}
+
+.table-header th {
+    font-size: 14px !important;
+    text-align: left;
+    border-bottom-color: rgba(0, 0, 0, .12);
+    color: rgba(0, 0, 0, .54);
+    font-weight: 500;
+    padding: 6px 20px 6px 16px !important
+}
+
+.TableCell {
+    font-family: unset !important;
+    color: rgba(0, 0, 0, .87);
+    // padding: 9px 44px 20px 20px !important;
+}
+
+.TableCell.CompletionCell {
+    padding-left: 54px !important;
+}
+
+.TableCell.SubmissionCell {
+    padding-left: 25px !important;
+}
+
+.TableCell.RecordsCell {
+    padding-left: 19px !important;
+}
+
+.TableCell.InputCell {
+    padding-left: 20px!important;
+    padding-right: 61px!important;
+}
+
+.checkBox {
+    color: red;
+}
+
+.MuiTableCell-sizeSmall {
+    // padding: 6px 56px 6px 12px !important;
+}
+
+.iconDownload {
+    color: #DA291C;
+    // margin-left: -100%;
+}
+
+.disableDownloadIcon {
+    color: "grey";
+//     margin-left: -100%;
+ }
+
+
+@media (min-width: 576px) {
+    .modal-dialog {
+        max-width: 800px;
+    }
+
+    //IE 11 Styles 
+    @media all and (-ms-high-contrast: none),
+    (-ms-high-contrast: active) {
+        .iconDownload {
+            color: #DA291C;
+            margin-left: 10%;
+        }
+
+        .disableDownloadIcon {
+            color: "grey";
+            margin-left: 10%;
+
+        }
+    }
+}
+
+.input-tag {
+    background: white;
+    border: 1px solid #d6d6d6;
+    border-radius: 2px;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 5px 5px 0;
+}
+
+.input-tag input {
+    border: none;
+    width: 100%;
+}
+
+.input-tag__tags {
+    display: inline-flex;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+.input-tag__tags li {
+    align-items: center;
+    // background: #85A3BF;
+    border-radius: 18px;
+    color: white;
+    display: flex;
+    font-weight: 300;
+    list-style: none;
+    margin-bottom: 5px;
+    margin-right: 5px;
+    padding: 5px 10px;
+}
+
+.input-tag__tags li button {
+    align-items: center;
+    appearance: none;
+    background: #333333;
+    border: none;
+    border-radius: 50%;
+    color: white;
+    cursor: pointer;
+    display: inline-flex;
+    font-size: 12px;
+    height: 15px;
+    justify-content: center;
+    line-height: 0;
+    margin-left: 8px;
+    padding: 0;
+    transform: rotate(45deg);
+    width: 15px;
+}
+
+.input-tag__tags li.input-tag__tags__input {
+    background: none;
+    flex-grow: 1;
+    padding: 0;
+}
+
+.MuiSvgIcon-root {
+    fill: currentColor;
+    width: 18px;
+    height: 18px;
+    display: inline-block;
+    font-size: 1.5rem;
+    transition: fill 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+    flex-shrink: 0;
+    user-select: none;
+    margin-right: 5px;
+}
+
+.alert-warning {
+    color: #856404;
+    font-size: 13px;
+    background-color: #fff;
+}
+
+
+.alert-info {
+    //color: #856404;
+    color: #856404 !important;
+    font-size: 13px !important;
+    background-color: #fff !important;
+    border-color: white !important;
+}
+
+.alert {
+    position: relative;
+    padding: 10px 15px;
+    // margin-bottom: 1rem;
+    border: 1px solid transparent;
+    border-radius: .25rem;
+}
+
+info-msg {
+    position: relative;
+    padding: 0px 12px;
+    border: 1px solid transparent;
+    border-radius: .25rem;
+}
+
+.datePickerStyle {
+    border-radius : 0px;
+}
+
+.required{
+    color: red;
+}
+
+.form-label {
+    // color:initial;
+    font-size: 14px;
+    color: #919191;
+}
+
+.modal-title {
+    margin-bottom: 0 !important;
+}
+
+.alert-danger {
+    color: #721c24 !important;
+    background-color: #f8d7da !important;
+    border-color: #f5c6cb !important;
+}
+
+.uploadDownloadTitle{
+    border-bottom: 3px solid #da291c;
+    font-size: 15px;
+    margin: 15px 0 0px 15px;
+    font-weight: 700;
+    color: #5e5e5e;
+}

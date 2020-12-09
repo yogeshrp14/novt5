@@ -1,0 +1,16 @@
+{
+    "handleId": "reddy121",
+    "emailId": "reddy121@avaya.com",
+    "firstName": "Bhuvaneswara",
+    "lastName": "Reddy",
+    "address": "nullnull",
+    "city": null,
+    "country": null,
+    "zip": null,
+    "phoneNumber": null,
+    "companyName": null,
+    "bpLinkId": null,
+    "isAssociate": true,
+    "isShowUsageUpload": true,
+    "hasRBACAdminAccess": true
+}

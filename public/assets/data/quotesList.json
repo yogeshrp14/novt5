@@ -1,0 +1,47 @@
+{
+  "linkId": "375928",
+  "ssoId": "reddy121",
+  "searchStr": null,
+  "quoteList": [
+    {
+      "configId": null,
+      "quoteId": "TZA0027016",
+      "solutionId": "XT0000JNR7",
+      "companyId": null,
+      "expiryDate": "23-Feb-2020",
+      "quoteStatus": "Ready to order",
+      "accountName": null,
+      "partnerName": "WestconGroup SA (Pty) Ltd",
+      "quoteName": "WestconGroup SA (Pty) Ltd-0003114928",
+      "status": "Ready to order",
+      "quoteType": "S",
+      "countryCode": "ZA",
+      "endCustomerName": " "
+    },
+    {
+      "configId": null,
+      "quoteId": "TZA0027017",
+      "solutionId": "XT0000JNR7",
+      "companyId": null,
+      "expiryDate": "23-Feb-2020",
+      "quoteStatus": "Ready to order",
+      "accountName": null,
+      "partnerName": "WestconGroup SA (Pty) Ltd",
+      "quoteName": "WestconGroup SA (Pty) Ltd-0003114928",
+      "status": "Ready to order",
+      "quoteType": "H",
+      "countryCode": "ZA",
+      "endCustomerName": " "
+    }
+  ],
+  "page": {
+    "pageNumber": 1,
+    "pageSize": 5,
+    "sortBy": "created",
+    "sortDir": "desc",
+    "numberOfPages": 1,
+    "lastPage": "true",
+    "firstPage": "true",
+    "totalRecords": 2
+  }
+}

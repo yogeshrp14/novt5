@@ -1,0 +1,118 @@
+[
+    {
+      "contractNumber": "SS513593699955",
+      "subscriptionNumber": "SS9510297",
+      "statusCode": "202",
+      "reason": "There are no bill cycles pending to upload usages Contract",
+      "totalNoPendingbillcycle": "123",
+      "shipTo": "456789"
+    },
+    {
+      "contractNumber": "SS51359369996",
+      "subscriptionNumber": "SS95102996",
+      "statusCode": "202",
+      "reason": "There are no bill cycles pending to upload usages Contract",
+      "totalNoPendingbillcycle": "0",
+      "shipTo": "456789",
+      "addintionalInfo": {
+        "SoldToCountry": "a",
+        "OrderReason": "b"
+      }
+    },
+    {
+      "contractNumber": "SS51359369999",
+      "subscriptionNumber": "SS9510297",
+      "statusCode": "202",
+      "reason": "There are no bill cycles pending to upload usages Contract",
+      "totalNoPendingbillcycle": "5",
+      "shipTo": "456789",
+      "addintionalInfo": {
+        "SoldToCountry": "a",
+        "OrderReason": "b"
+      }
+    },
+    {
+      "contractNumber": "SS51359369996",
+      "subscriptionNumber": "SS9510297",
+      "statusCode": "202",
+      "reason": "There are no bill cycles pending to upload usages Contract",
+      "totalNoPendingbillcycle": "0",
+      "shipTo": "456789",
+      "addintionalInfo": {
+        "SoldToCountry": "a",
+        "OrderReason": "b"
+      }
+    },
+    {
+      "contractNumber": "SS51359369997",
+      "subscriptionNumber": "SS9510297",
+      "statusCode": "202",
+      "reason": "There are no bill cycles pending to upload usages Contract",
+      "totalNoPendingbillcycle": "1",
+      "shipTo": "456789",
+      "addintionalInfo": {
+        "SoldToCountry": "a",
+        "OrderReason": "b"
+      }
+    },
+    {
+      "contractNumber": "SS51359369999",
+      "subscriptionNumber": "SS95102999",
+      "statusCode": "202",
+      "reason": "There are no bill cycles pending to upload usages Contract",
+      "totalNoPendingbillcycle": "0",
+      "shipTo": "456789",
+      "addintionalInfo": {
+        "SoldToCountry": "a",
+        "OrderReason": "b"
+      }
+    },
+    {
+      "contractNumber": "SS51359369996",
+      "subscriptionNumber": "SS95102995",
+      "statusCode": "202",
+      "reason": "There are no bill cycles pending to upload usages Contract",
+      "totalNoPendingbillcycle": "0",
+      "shipTo": "456789",
+      "addintionalInfo": {
+        "SoldToCountry": "a",
+        "OrderReason": "b"
+      }
+    },
+    {
+      "contractNumber": "SS51359369996",
+      "subscriptionNumber": "SS95102999",
+      "statusCode": "202",
+      "reason": "There are no bill cycles pending to upload usages Contract",
+      "totalNoPendingbillcycle": "0",
+      "shipTo": "456789",
+      "addintionalInfo": {
+        "SoldToCountry": "a",
+        "OrderReason": "b"
+      }
+    },
+    {
+      "contractNumber": "SS51359369995",
+      "subscriptionNumber": "SS95102995",
+      "statusCode": "202",
+      "reason": "There are no bill cycles pending to upload usages Contract",
+      "totalNoPendingbillcycle": "0",
+      "shipTo": "456789",
+      "addintionalInfo": {
+        "SoldToCountry": "a",
+        "OrderReason": "b"
+      }
+    },
+    {
+      "contractNumber": "SS51359369995",
+      "subscriptionNumber": "SS95102999",
+      "statusCode": "202",
+      "reason": "There are no bill cycles pending to upload usages Contract",
+      "totalNoPendingbillcycle": "0",
+      "shipTo": "456789",
+      "addintionalInfo": {
+        "SoldToCountry": "a",
+        "OrderReason": "b"
+      }
+    }
+  ]

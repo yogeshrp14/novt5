@@ -1,0 +1,101 @@
+.required {
+    font-weight: bold;
+}
+
+.required:after {
+    color  : #e32;
+    content: ' *';
+    display: inline;
+}
+
+.requiredWarning {
+    font-size: 15px;
+    color    : red;
+}
+
+.arrangeRoles {
+    // width                : 1070px;
+    display              : grid;
+    // grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap             : 5px 0em;
+}
+
+.roleGroup {
+    margin: 5px;
+}
+
+.roleGroup>.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    // width: 40%;
+}
+
+.roleGroup>.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.roleGroup>.card>.container {
+    // padding   : 2px 16px;
+    min-height: 130px;
+}
+
+.roleGroup>.card>.container>h4 {
+    padding    : 5px;
+    background : #ececec;
+    line-height: normal;
+}
+
+.cardbody {
+    padding: 5px;
+}
+
+.sub-role-smalltext {
+    color    : gray;
+    font-size: 9px;
+}
+
+.MuiSvgIcon-colorDisabled {
+    transform: rotate("270deg")
+}
+
+.sub-role-style {
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.hide {
+    display: none
+}
+
+.show {
+    // color: red;
+}
+
+.role-active {
+    background-color: rgb(6, 169, 6);
+    color: white;
+    margin-right: 5px;
+    border: 2px solid rgb(214, 214, 214);
+    padding: 0px 5px;
+    font-size: 12px;
+    margin: 4px 0 0 10px;
+}
+
+.role-inactive {
+    background-color: rgb(218, 41, 28);
+    color: white;
+    margin-right: 5px;
+    border: 2px solid rgb(214, 214, 214);
+    padding: 0px 5px;
+    font-size: 12px;
+    margin: 4px 0 0 10px;
+}
+
+// .btn.btn-secondary {
+    // padding: 3px 18px!important;
+// }
+
+.MuiTypography-body1 {
+    font-size: 14px!important;
+}

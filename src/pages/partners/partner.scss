@@ -1,0 +1,213 @@
+@import '../dashboard/dashboard.scss';
+
+section {
+  padding: 5px 0;
+}
+
+.partner-wrapper {
+  margin          : 20px auto;
+  max-width       : 600px;
+  margin-top      : 2%;
+  height          : auto;
+  background-color: #ffffff;
+  border          : 1px solid #dddddd;
+  padding         : 25px 10px 2px;
+  box-shadow      : 0 2px 1px -1px rgba(0, 0, 0, .2), 0 1px 1px 0 rgba(0, 0, 0, .14), 0 1px 3px 0 rgba(0, 0, 0, .12);
+}
+
+.partner-heaing {
+  h2 {
+    text-align : center;
+    font-family: Playfair Display, sans-serif;
+    font-size  : 39px;
+    line-height: 40px;
+    font-weight: 500;
+    margin-top : 4%;
+    color      : #686868;
+  }
+}
+
+.table-section-search {
+  display                : grid;
+  display                : -ms-grid;
+  //grid-template-columns: 4fr 275px;
+  grid-gap               : 30px 10px;
+  margin-bottom          : 30px;
+
+  @include breakpoint(mobile) {
+    grid-template-columns: 1fr;
+  }
+
+  .table-search {
+    position: relative;
+
+    input {
+      border         : 1px solid $color-medium-gray;
+      outline        : none;
+      color          : $color-black;
+      padding        : 20px 1px 20px;
+      background     : $color-white;
+      width          : 77%;
+      // margin-right: 5px;
+      margin-right   : 20px;
+      @extend .text-tiny-body;
+    }
+
+  }
+}
+
+
+.partner-actio-btn {
+  text-align   : right;
+  margin-top   : 15px;
+  margin-bottom: 15px;
+}
+
+.partner-radio-group {
+  display       : flex;
+  flex-direction: column;
+  margin        : 15px 0;
+}
+
+.partner-radio-button {
+  margin   : 5px;
+  font-size: 15px;
+  color    : #626262;
+}
+
+.searchResults {
+  padding   : 10 !important;
+  max-height: 290px;
+  overflow-y: auto;
+}
+
+.outerDiv {
+  overflow: hidden
+}
+
+.results {
+  display             : flex;
+  flex-direction      : column;
+  // margin           : 15px 0;
+  color               : #626262;
+  margin              : 5px;
+  font-size           : 15px;
+}
+
+.CardBody {
+  width: 100%;
+}
+
+
+label {
+  display    : flex;
+  margin-left: 5px;
+}
+
+.moreButton {
+  margin-right: 530px;
+}
+
+@media all and (-ms-high-contrast: none),
+(-ms-high-contrast: active) {
+  .table-section-search {
+    display      : grid;
+    display      : -ms-grid;
+    grid-gap     : 30px 10px;
+    margin-bottom: 30px;
+
+    @include breakpoint(mobile) {
+      grid-template-columns: 1fr;
+    }
+
+    .table-search {
+      position: relative;
+
+      input {
+        border      : 1px solid $color-medium-gray;
+        outline     : none;
+        color       : $color-black;
+        padding     : 9px 10px 8px;
+        background  : $color-white;
+        width       : 445px;
+        margin-right: 20px;
+      }
+    }
+  }
+}
+
+input[type='radio'] {
+  margin-right      : 8px;
+  -webkit-appearance: none;
+  width             : 20px;
+  height            : 20px;
+  border            : 2px solid darkgray;
+  border-radius     : 50%;
+  outline           : none;
+  display           : flex;
+  margin-top        : 5px;
+  margin-left       : 1px;
+}
+
+input[type='radio']:before {
+  content      : '';
+  display      : block;
+  width        : 10px;
+  height       : 10px;
+  margin       : 20% auto;
+  border-radius: 50%;
+}
+
+input[type='radio']:checked:before {
+  background: #DA291C;
+}
+
+input[type='radio']:checked {
+  border: 2px solid #DA291C;
+}
+
+input[type=radio]:checked::-ms-check {
+  border: 2px solid #DA291C;
+  /* This will make the border red when the button is checked. */
+  color: #DA291C;
+  /* This will make the circle red when the button is checked. */
+}
+
+
+@media (max-width: 609px) {
+  .table-section-search .table-search input {
+    width: 65% !important;
+  }
+}
+
+@supports (-ms-ime-align: auto) {
+  .table-search {
+    display: flex;
+
+    input {
+      flex     : 0 0 91.666667%;
+      max-width: 91.66%;
+    }
+
+    button {
+      display     : inline-flex;
+      flex        : 0 0 33.333333%;
+      max-width   : 30%;
+      margin-left : 15px;
+      padding-left: 38px !important;
+    }
+  }
+}
+
+.search-options {
+  text-align: center;
+  margin-top: 25px;
+}
+
+.search-options button {
+  margin: 10px;
+}
+
+:root .MuiRadio-colorSecondary.Mui-checked {
+  color: #ff0000;
+}

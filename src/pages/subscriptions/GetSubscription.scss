@@ -1,0 +1,160 @@
+.table-header th {
+    background-color: #ffffff !important;
+    color: #848282 !important;
+    height: 55px;
+   // padding: 6px 24px 6px 16px !important;
+  //  padding: 6px 24px 6px 16px!important
+}
+
+.subrow_1 {
+    // position: absolute;
+    margin-top: -9px;
+}
+
+.subrow_2 {
+    position: relative;
+    top: 15px;
+    width: 100%;
+}
+
+.MuiPaper-root > .MuiBox-root {
+    padding: 0px !important;
+}
+
+.MuiExpansionPanelSummary-content > .MuiBox-root {
+    padding: 0px !important;
+    width: 98px;
+}
+
+.MuiExpansionPanelSummary-root {
+    padding: 0 24px 0 0 !important;
+}
+
+.MuiExpansionPanelSummary-content.Mui-expanded {
+    margin: 0 20px !important;
+}
+
+.productHeading {
+    border-bottom: 3px solid #DA291C;
+    width: 75px;
+    font-weight: 500;
+    font-size: 15px;
+  }
+
+  .product-tab, .invoice-tab{
+      margin-bottom: 15px;
+  }
+
+  .product-details{
+    width: inherit;
+  }
+
+  .MuiGrid-root.MuiGrid-item.MuiGrid-grid-xs-12{
+    flex-basis:none;
+}
+
+  .systemLabel{
+    // width: 85px !important;
+    border-bottom: 3px solid #DA291C;
+    font-weight: 500;
+    font-size: 15px;
+    margin-left: 6px;
+}
+
+.itemLabel{
+    width: auto !important;
+    border-bottom: 3px solid #DA291C;
+    font-weight: 500;
+    font-size: 15px;
+    margin-bottom: 7px; 
+}
+
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+    .productHeading {
+    width: auto !important;
+    font-size: 15px;
+    font-weight: 600;
+    border-bottom: 3px solid #DA291C;
+	position:relative;
+    }
+
+    .product-details{
+        margin-top: 50px !important;
+        width: inherit;
+      }
+
+    .MuiGrid-root.MuiGrid-item.MuiGrid-grid-xs-12{
+        flex-basis:inherit;
+        width: 100%;
+    }
+    .itemLabel{
+        width: 89px !important;
+        border-bottom: 3px solid #DA291C;
+        font-weight: 500;
+        font-size: 15px;
+        margin-bottom: 5px;
+    }
+
+    .systemLabel{
+        width: 80px !important;
+        border-bottom: 3px solid #DA291C;
+        font-weight: 500;
+        font-size: 15px;
+        margin-left: 6px;
+    }
+    
+}
+
+.modal-title {
+    color: #ffffff!important;
+    font-size: 20px;
+}
+
+.modal-header {
+    padding: 5px 15px;
+}
+
+
+.icon-container {
+    position: relative;
+    top: -30px;
+    left: 205px;
+  }
+  .loader {
+    position: relative;
+    height: 20px;
+    width: 20px;
+    display: inline-block;
+    animation: around 5.4s infinite;
+  }
+  
+  @keyframes around {
+    0% {
+      transform: rotate(0deg)
+    }
+    100% {
+      transform: rotate(360deg)
+    }
+  }
+  
+  .loader::after, .loader::before {
+    content: "";
+    background: white;
+    position: absolute;
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    border-width: 2px;
+    border-color: #ff0101 #ff0101 transparent transparent;
+    border-style: solid;
+    border-radius: 20px;
+    box-sizing: border-box;
+    top: 0;
+    left: 0;
+    animation: around 0.7s ease-in-out infinite;
+  }
+  
+  .loader::after {
+    animation: around 0.7s ease-in-out 0.1s infinite;
+    background: transparent;
+  }

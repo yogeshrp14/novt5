@@ -1,0 +1,37 @@
+
+// .MuiBox-root-100 {
+//     padding: 24px 0 !important;
+// }
+
+.MuiBox-root {
+    padding: 24px 0 !important;
+}
+
+.MuiAppBar-root {
+    width:41% !important;
+}
+
+.MuiPaper-elevation4 {
+    box-shadow: none !important;
+}
+
+.PrivateTabIndicator-root-65 {
+    height: 4px !important;
+}
+
+.MuiTab-textColorSecondary.Mui-selected {
+    border: none !important;
+}
+
+.MuiTab-textColorSecondary.Mui-selected:focus {outline:0;}
+
+
+.MuiTabs-indicator {
+    background-color: #DA291C !important;
+}
+
+.btn.disabled, .btn:disabled, .btn[disabled] {
+    // margin-top: -2px !important;
+    padding: 7px 30px 7px 29px !important;
+    // margin: unset!important;
+}

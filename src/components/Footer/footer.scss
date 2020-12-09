@@ -1,0 +1,112 @@
+@import '../../index.scss';
+// @import '../../pages/dashboard/dashboard.scss';
+
+.av-footer {
+  width     : 100%;
+  bottom    : 0;
+  border-top: 8px solid #DA291C;
+  font-size : 13px;
+  color     : #4b4b4b;
+}
+
+.av-footer a {
+  text-decoration: none;
+  cursor         : pointer;
+  color          : #4b4b4b;
+  font-size      : 13px;
+}
+
+.av-footer a:hover {
+  color: #DA291C;
+}
+
+.av-footer .footer {
+  font-size : 13px;
+  padding   : 80px 60px;
+  background: #ededed;
+}
+
+.av-footer .av-sub-footer {
+  background       : #fff;
+  height           : 100px;
+  /* padding-bottom: 215px; */
+}
+
+.av-footer .av-sub-footer .inner {
+  display        : flex;
+  flex-direction : row;
+  justify-content: center;
+  padding        : 25px 15px;
+}
+
+.av-footer .av-sub-footer .inner .av-logo {
+  padding: 8px 20px 15px 0px;
+}
+
+.av-footer .av-sub-footer .inner .av-logo img {
+  /* width: 100%; */
+  padding : 8px 20px 15px 0;
+}
+
+.av-footer .av-sub-footer .inner .policy {
+  flex      : 1;
+  padding   : 10px;
+  text-align: center;
+}
+
+.av-footer .av-sub-footer .inner .policy p {
+  display     : inline-block;
+  padding     : 0px 15px;
+  border-right: 1px solid #b9b9b9;
+}
+
+.av-footer .av-sub-footer .inner .policy p:last-child {
+  border-right: none;
+}
+
+.av-footer .av-sub-footer .inner .end-tag {
+  padding: 10px;
+}
+
+@media (min-width: 767px) and (max-width: 1024px) {
+  .av-footer .footer {
+    padding: 40px 20px;
+  }
+
+  .av-footer .footer .inner .col {
+    padding: 10px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .av-footer .footer {
+    padding: 20px;
+  }
+
+  .av-footer .footer .inner {
+    flex-direction: column;
+  }
+
+  .av-footer .footer .inner .col {
+    padding-bottom: 10px;
+  }
+
+  .av-footer .av-sub-footer .inner {
+    flex-direction: column;
+    padding       : 20px;
+  }
+
+  .av-footer .av-sub-footer .inner .av-logo {
+    width : 120px;
+    margin: 0 auto;
+  }
+
+  .av-footer .av-sub-footer .inner .policy {
+    padding: 5px;
+  }
+
+  .av-footer .av-sub-footer .inner .end-tag {
+    padding   : 10px;
+    text-align: center;
+  }
+}

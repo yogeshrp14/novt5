@@ -1,0 +1,207 @@
+// Bootstrap
+@import "bootstrap/functions";
+@import "bootstrap/variables";
+@import "bootstrap/mixins";
+// Variables
+@import "app/common/variables";
+// Layout
+@import "app/layout/layout";
+@import "app/layout/layout-animation";
+@import "app/layout/top-navbar";
+@import "app/layout/sidebar";
+@import "app/layout/user-block";
+// Common
+@import "app/common/typo";
+@import "app/common/bootstrap-reset";
+@import "app/common/bootstrap-custom";
+@import "app/common/cards";
+@import "app/common/animate";
+@import "app/common/inputs";
+@import "app/common/utils";
+// Elements
+@import "app/elements/nestable";
+@import "app/elements/notify";
+
+// Form elements
+@import "app/forms/form-validation";
+@import "app/forms/plugins";
+
+
+/**Variables**/
+$color-red              : #DA291C;
+$color-black            : #000;
+$color-white            : #fff;
+$color-dark-gray        : #313133;
+$color-gray             : #575759;
+$color-medium-gray      : #ccc;
+$color-light-gray       : #f1f1f3;
+$color-lighter-gray     : #f9f9fa;
+$color-light-blue       : #a3cae9;
+$color-dark-blue        : #2099fa;
+$color-green            : #2dcc70;
+$color-orange           : #ff9e3d;
+$color-primary-red-hover: #c01a1e;
+
+
+// .av-logo {
+//     overflow: hidden;
+//     position: relative;
+//     height  : 55px;
+//     width   : 230px;
+// }
+
+// .av-logo .logo {
+//     background       : #DA291C;
+//     height           : 55px;
+//     width            : 230px;
+//     margin           : 0 0 0 -20px;
+//     transform        : skew(20deg);
+//     -webkit-transform: skew(20deg);
+//     -moz-transform   : skew(20deg);
+//     -o-transform     : skew(20deg);
+//     overflow         : hidden;
+//     position         : relative;
+// }
+
+// .av-logo .image-container {
+//     z-index  : 999;
+//     position : absolute;
+//     top      : 30px;
+//     left     : 15px;
+//     transform: translateY(-50%);
+// }
+
+
+.btn.btn-primary {
+    background: #da291c;
+    color: #fff;
+    border: 0 solid #da291c;
+    border-radius: 0;
+    padding: 7px 30px;
+}
+
+.btn {
+	background: none;
+	padding   : 9px 30px 8px;
+
+	display        : inline-block;
+	text-decoration: none;
+	cursor         : pointer;
+	// @extend .text-small-body;
+	outline           : none;
+	position          : relative;
+	//text-transform  : uppercase;
+	z-index           : 1;
+	overflow          : hidden;
+	-webkit-transition: all 0.3s;
+	-moz-transition   : all 0.3s;
+	-o-transition     : all 0.3s;
+	transition        : all 0.3s;
+	font-weight       : 400;
+
+	&:before {
+		content : '';
+		position: absolute;
+		z-index : -1;
+	}
+
+	&:after {
+		content            : '';
+		position           : absolute;
+		z-index            : -1;
+		-webkit-transition : all 0.3s;
+		-moz-transition    : all 0.3s;
+		-o-transition      : all 0.3s;
+		transition         : all 0.3s;
+		height             : 100%;
+		left               : -50%;
+		top                : 0;
+		transform          : skew(50deg);
+		transition-duration: 0.6s;
+		transform-origin   : top left;
+		width              : 0;
+	}
+
+	&:hover {
+		&:after {
+			height: 100%;
+			width : 150%;
+		}
+	}
+
+	&.btn-primary {
+		background   : $color-red;
+		color        : $color-white;
+		border       : 0px solid $color-red;
+		border-radius: 0px;
+		padding      : 7px 30px 7px 30px;
+
+		&:before,
+		&:after {
+			background: $color-primary-red-hover;
+		}
+	}
+
+	&.btn-secondary {
+		background   : $color-white;
+		border       : 2px solid $color-red;
+		color        : $color-black;
+		margin-right : 10px;
+		padding      : 7px 30px 7px 30px;
+		border-radius: 0;
+
+		&:before,
+		&:after {
+			background: $color-red;
+		}
+
+		&:hover {
+			color: $color-white;
+		}
+	}
+
+	&.btn-secondary-white-outline {
+		background: $color-red;
+		border    : 2px solid $color-white;
+		color     : $color-white;
+
+		&:before,
+		&:after {
+			background: $color-primary-red-hover;
+		}
+	}
+
+	&.disabled,
+	&:disabled,
+	&[disabled] {
+		background: $color-lighter-gray;
+		border    : 2px solid $color-lighter-gray;
+		cursor    : auto;
+		color     : $color-gray;
+
+
+		&:before,
+		&:after {
+			background: $color-lighter-gray;
+		}
+
+		&:hover {
+			color: $color-gray !important;
+		}
+	}
+}
+
+.btn-danger {
+    color: unset;
+}
+
+.custom-control {
+    display: inline-block;
+    margin-right: 30px;
+}
+
+.custom-control-input:checked ~ .custom-control-label::before {
+    color: #fff;
+    border-color: #ef272f;
+    background-color: #ff6054;
+}

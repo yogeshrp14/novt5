@@ -1,0 +1,115 @@
+@import '../dashboard/dashboard.scss';
+
+.form input{
+    width:98%;
+   
+    height:35px;
+    background:  #f1eeee;
+    border: 1px solid #ccc;
+    margin-right:25px;
+}
+.accountSection{
+    background-color: #f1eeee;
+    height:650px;
+    padding-left: 25px;
+}
+.headerName{
+    margin-right:85%;
+    font-size:32px;
+    line-height:40px;
+    font-weight:700;
+    font-family:Playfair Display,Bold, sans-serif;
+}
+.subHeader{
+    margin-right:77%;
+    line-height: 30px;
+    font-size: 20px;
+    font-weight: 600;
+}
+.label{
+    font-weight: bold;
+}
+.updateButton{
+    margin-right:93%;
+    margin-top:-1%;
+}
+// .accountSection{
+//     .form{
+//         .label{
+//     }.phone{
+//     background-color: white;
+// }}}
+  //ipad
+  @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+    .accountSection{
+        .headerName{
+            margin-right:71%;
+        }
+        .subHeader{
+            margin-right:63%;
+            font-weight: bold;
+        }
+        .form{.updateButton{
+          margin-top:-3%;
+        }}}
+  }
+  //ipad pro
+  @media only screen and (min-device-width : 1024px) and (max-device-width : 1366px) {
+    .accountSection{
+        .headerName{
+            margin-right:79%;
+        }
+        .subHeader{
+            margin-right:73%;
+            font-weight: bold;
+        }
+        .form{.updateButton{
+          margin-top:-2%;
+        }}}
+  }
+
+//iphone 5,se
+@media only screen
+  and (min-device-width : 320px)
+  and (max-device-width : 568px) {
+  .accountSection{
+    .headerName{
+        margin-right:18%;
+          }
+    .subHeader{
+        margin-right:-4%;
+        font-weight: bold;
+    }
+      .form{.updateButton{
+        margin-top:-1%;
+      }}}
+  }
+  //iphone 6,7,8,10,6,8,8(plus),pixel
+  @media only screen
+and (min-device-width : 375px)
+and (max-device-width : 667px) {
+.accountSection{
+  .headerName{
+      margin-left:-12%;
+        }
+  .subHeader{
+      margin-left:-20%;
+      font-weight: bold;
+  }
+    .form{.updateButton{
+      margin-top:-1%;
+    }}}
+}
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+    .accountSection{
+    .headerName{
+        margin-right:82%;
+          }
+    .subHeader{
+        margin-right:77%;
+        font-weight: bold;
+    }
+      .form{.updateButton{
+        margin-top:-1%;
+      }}}
+}

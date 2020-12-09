@@ -1,0 +1,217 @@
+[{
+    "handleId": "agdeole",
+    "roleGroups": [{
+        "name": "Internal",
+        "role": [{
+            "resourceName": "PartnerSearch",
+            "hasAccess": "true"
+          },
+          {
+            "resourceName": "UsageUpload",
+            "hasAccess": "true"
+          },
+          {
+            "resourceName": "UsageDownload",
+            "hasAccess": "true"
+          }
+        ]
+      },
+      {
+        "name": "Ordering",
+        "role": [{
+            "resourceName": "Orders",
+            "hasAccess": "true"
+          },
+          {
+            "resourceName": "OrdersEventStore",
+            "hasAccess": "true"
+          }
+        ]
+      },
+      {
+        "name": "Quoting",
+        "role": [{
+            "resourceName": "ViewQuotes",
+            "hasAccess": "true"
+          },
+          {
+            "resourceName": "CreateQuote",
+            "hasAccess": "false"
+          },
+          {
+            "resourceName": "DeleteQuote",
+            "hasAccess": "false"
+          }
+        ]
+      },
+      {
+        "name": "Disti",
+        "role": [{
+            "resourceName": "Subscription",
+            "hasAccess": "true"
+          },
+          {
+            "resourceName": "SubscriptionPartner",
+            "hasAccess": "true"
+          }
+        ]
+      },
+      {
+        "name": "Reseller",
+        "role": [{
+            "resourceName": "SubscriptionReseller",
+            "hasAccess": "true"
+          },
+          {
+            "resourceName": "SubscriptionUsages",
+            "hasAccess": "true"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "handleId": "reddy121",
+    "roleGroups": [{
+        "name": "Internal",
+        "role": [{
+            "resourceName": "PartnerSearch",
+            "hasAccess": "true"
+          },
+          {
+            "resourceName": "UsageUpload",
+            "hasAccess": "true"
+          },
+          {
+            "resourceName": "UsageDownload",
+            "hasAccess": "true"
+          }
+        ]
+      },
+      {
+        "name": "Ordering",
+        "role": [{
+            "resourceName": "Orders",
+            "hasAccess": "true"
+          },
+          {
+            "resourceName": "OrdersEventStore",
+            "hasAccess": "true"
+          }
+        ]
+      },
+      {
+        "name": "Quoting",
+        "role": [{
+            "resourceName": "ViewQuotes",
+            "hasAccess": "true"
+          },
+          {
+            "resourceName": "CreateQuote",
+            "hasAccess": "true"
+          },
+          {
+            "resourceName": "DeleteQuote",
+            "hasAccess": "true"
+          }
+        ]
+      },
+      {
+        "name": "Disti",
+        "role": [{
+            "resourceName": "Subscription",
+            "hasAccess": "true"
+          },
+          {
+            "resourceName": "SubscriptionPartner",
+            "hasAccess": "true"
+          }
+        ]
+      },
+      {
+        "name": "Reseller",
+        "role": [{
+            "resourceName": "SubscriptionReseller",
+            "hasAccess": "true"
+          },
+          {
+            "resourceName": "SubscriptionUsages",
+            "hasAccess": "true"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "handleId": "udisti",
+    "roleGroups": [{
+        "name": "Internal",
+        "role": [{
+            "resourceName": "PartnerSearch",
+            "hasAccess": "true"
+          },
+          {
+            "resourceName": "UsageUpload",
+            "hasAccess": "true"
+          },
+          {
+            "resourceName": "UsageDownload",
+            "hasAccess": "true"
+          }
+        ]
+      },
+      {
+        "name": "Ordering",
+        "role": [{
+            "resourceName": "Orders",
+            "hasAccess": "true"
+          },
+          {
+            "resourceName": "OrdersEventStore",
+            "hasAccess": "true"
+          }
+        ]
+      },
+      {
+        "name": "Quoting",
+        "role": [{
+            "resourceName": "ViewQuotes",
+            "hasAccess": "true"
+          },
+          {
+            "resourceName": "CreateQuote",
+            "hasAccess": "true"
+          },
+          {
+            "resourceName": "DeleteQuote",
+            "hasAccess": "true"
+          }
+        ]
+      },
+      {
+        "name": "Disti",
+        "role": [{
+            "resourceName": "Subscription",
+            "hasAccess": "true"
+          },
+          {
+            "resourceName": "SubscriptionPartner",
+            "hasAccess": "true"
+          }
+        ]
+      },
+      {
+        "name": "Reseller",
+        "role": [{
+            "resourceName": "SubscriptionReseller",
+            "hasAccess": "true"
+          },
+          {
+            "resourceName": "SubscriptionUsages",
+            "hasAccess": "true"
+          }
+        ]
+      }
+    ]
+  }
+]

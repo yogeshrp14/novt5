@@ -1,0 +1,97 @@
+{
+    "items": [
+      {
+        "due_date": "2019-09-01",
+        "entity_id": "2c92c0f96276ccb4016279738b8e0795",
+        "invoice_date": "2019-09-01",
+        "owcc_document_id": "162777",
+        "amount": "250",
+        "currency": "Dollar",
+        "account_name": null,
+        "invoice_id": "2c92c0866c286789016c2a6121fb58a2",
+        "invoice_number": "UN00002298",
+        "status": "Posted"
+      },
+      {
+        "due_date": "2019-09-01",
+        "entity_id": "2c92c0f96276ccb4016279738b8e0795",
+        "invoice_date": "2019-09-01",
+        "owcc_document_id": "162777",
+        "amount": "150",
+        "currency": "Dollar",
+        "account_name": null,
+        "invoice_id": "2c92c0866c286789016c2a6122dd58ad",
+        "invoice_number": "UN00002309",
+        "status": "Posted"
+      },
+      {
+        "due_date": "2019-09-01",
+        "entity_id": "2c92c0f96276ccb4016279738b8e0795",
+        "invoice_date": "2019-09-01",
+        "owcc_document_id": "162777",
+        "amount": "100",
+        "currency": "INR",
+        "account_name": null,
+        "invoice_id": "2c92c0946c2d4691016c2f4eccd05284",
+        "invoice_number": "UN00002326",
+        "status": "Posted"
+      },
+      {
+        "due_date": "2019-10-01",
+        "entity_id": "2c92c0f96276ccb4016279738b8e0795",
+        "invoice_date": "2019-10-01",
+        "owcc_document_id": "",
+        "amount": "500",
+        "currency": "Dollar",
+        "account_name": null,
+        "invoice_id": "2c92c0946c74e0f0016c77194ee23128",
+        "invoice_number": "UN00002679",
+        "status": "Posted"
+      },
+      {
+        "due_date": "2019-10-01",
+        "entity_id": "2c92c0f96276ccb4016279738b8e0795",
+        "invoice_date": "2019-10-01",
+        "owcc_document_id": "",
+        "amount": "400",
+        "currency": "Dollar",
+        "account_name": null,
+        "invoice_id": "2c92c0946c74e0f0016c77194eb23127",
+        "invoice_number": "UN00002678",
+        "status": "Posted"
+      },
+      {
+        "due_date": "2019-12-12",
+        "entity_id": "2c92c0f96276ccb4016279738b8e0795",
+        "invoice_date": "2019-12-12",
+        "owcc_document_id": "",
+        "amount": "500",
+        "currency": "Dollar",
+        "account_name": "CAROUSEL INDUSTRIES INC (OTHER)",
+        "invoice_id": "2c92c0996ef94c0d016efe3609be2a7a",
+        "invoice_number": "UN00005534",
+        "status": "Posted"
+      },
+      {
+        "due_date": "2020-02-18",
+        "entity_id": "2c92c0f96276ccb4016279738b8e0795",
+        "invoice_date": "2020-02-18",
+        "owcc_document_id": "",
+        "amount": "200",
+        "currency": "Dollar",
+        "account_name": "CAROUSEL INDUSTRIES INC (OTHER)",
+        "invoice_id": "2c92c0857033219f0170339baf3c127e",
+        "invoice_number": "UN00005698",
+        "status": "Posted"
+      }
+    ],
+    "search_criteria": {
+      "count": null,
+      "page_size": null,
+      "current_page": null
+    },
+    "getDetails": "true",
+    "total_count": 355,
+    "cancellable": "false",
+    "errorMsg": null
+  }

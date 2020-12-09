@@ -1,0 +1,25 @@
+.redirecting-block {
+    top     : 0;
+    left    : 0;
+    width   : 100%;
+    height  : 100%;
+    position: fixed;
+    z-index : 10000 !important;
+    display : block;
+}
+
+.loadingImage {
+    color   : #fff3f3;
+    left    : 40.5%;
+    opacity : 1;
+    padding : 44px 0 11px 15px;
+    position: absolute;
+    top     : 15%;
+    z-index : 1000;
+}
+
+.redircting-text {
+    color     : black;
+    font-size : 36px;
+    margin-top: 10px;
+}

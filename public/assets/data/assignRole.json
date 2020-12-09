@@ -1,0 +1,69 @@
+{
+  "roleGroups": [{
+      "name": "Ordering",
+      "role": [{
+          "resourceName": "Orders",
+          "resourceType": "Tab",
+          "subrole": "View Orders",
+          "hasAccess": "false"
+        },
+        {
+          "resourceName": "OrdersEventStore",
+          "resourceType": "Button",
+          "subrole": "Order Events",
+          "hasAccess": "false"
+        }
+      ]
+    },
+    {
+      "name": "Quoting",
+      "role": [{
+          "resourceName": "ViewQuotes",
+          "resourceType": "Button",
+          "subrole": "View Quote",
+          "hasAccess": "false"
+        },
+        {
+          "resourceName": "CreateQuote",
+          "resourceType": "Button",
+          "subrole": "Create Quote",
+          "hasAccess": "false"
+        },
+        {
+          "resourceName": "DeleteQuote",
+          "resourceType": "Button",
+          "subrole": "Delete Quote",
+          "hasAccess": "false"
+        }
+      ]
+    },
+    {
+      "name": "Subscription",
+      "role": [{
+          "resourceName": "Subscription",
+          "resourceType": "Tab",
+          "subrole": "BP Subscription",
+          "hasAccess": "false"
+        },
+        {
+          "resourceName": "SubscriptionPartner",
+          "resourceType": "Tab",
+          "subrole": "BP Subscription",
+          "hasAccess": "false"
+        },
+        {
+          "resourceName": "SubscriptionReseller",
+          "resourceType": "Tab",
+          "subrole": "Reseller Subscription",
+          "hasAccess": "false"
+        },
+        {
+          "resourceName": "SubscriptionUsages",
+          "resourceType": "Tab",
+          "subrole": "Reseller Subscription",
+          "hasAccess": "false"
+        }
+      ]
+    }
+  ]
+}

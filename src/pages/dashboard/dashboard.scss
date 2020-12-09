@@ -1,0 +1,98 @@
+@import '../../assets/fonts-playfair.scss';
+@import '../../assets/media-queries.scss';
+@import '../../assets/fonts-gotham.scss';
+@import '../../assets/global-styles.scss';
+
+.Billing {
+  max-width: 14%;
+}
+
+.Quotes {
+  max-width: 12%;
+}
+
+.disabled {
+  pointer-events: none;
+  color         : gray;
+}
+
+.Subscriptions {
+  max-width: 12%;
+}
+.Accountdetails{
+  max-width: 12%;
+  opacity: 0.5;
+  margin-bottom: 4px;
+}
+
+.accounts-menu,
+.help-menu {
+  display    : inline-block;
+  font-size  : 18px;
+  font-weight: 300;
+  line-height: 20px;
+  margin     : 10px;
+  cursor     : pointer;
+}
+
+.subscriptions-menu {
+  display    : inline-block;
+  font-size  : 18px;
+  font-weight: 300;
+  line-height: 20px;
+  margin     : 10px;
+  cursor     : pointer;
+}
+
+.dashboard-menu {
+  text-align: center;
+}
+
+.main {
+  min-height: 500px;
+  max-width: unset!important;
+}
+
+
+.MuiIcon-root {
+  padding-top: 4px;
+}
+
+.selected {
+  border-bottom: 3px solid red !important;
+}
+
+.dashboard-Header {
+  z-index    : 999;
+  position   : relative;
+  font-size  : 20px;
+  font-weight: 700;
+  left       : 0;
+  align-items: center;
+}
+
+.dashboard-SubHeader {
+  z-index       : 999;
+  position      : relative;
+  left          : 0;
+  margin        : 0;
+  padding-bottom: 15px;
+}
+
+
+
+@media (min-width: 1024px) {
+  .dashboard-product-title {
+    display: none;
+  }
+}
+
+
+a:hover {
+  text-decoration: none;
+  color: red;
+}
+
+.selected:hover {
+  color: #000;
+}

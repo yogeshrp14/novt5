@@ -1,0 +1,74 @@
+@import '../dashboard/dashboard.scss';
+@import 'bootstrap/dist/css/bootstrap.min.css';
+
+.table-section-search-quote {
+    display                 : grid;
+    display                 : -ms-grid;
+    // grid-template-columns: 4fr 275px;
+    grid-gap                : 30px 10px;
+    margin-bottom           : 30px;
+
+    @include breakpoint(mobile) {
+        // grid-template-columns: 1fr;
+    }
+
+    .table-search-quote {
+        position: relative;
+
+        input {
+            border         : 1px solid $color-medium-gray;
+            outline        : none;
+            color          : $color-black;
+            padding        : 9px 10px 8px;
+            background     : $color-white;
+            width          : 10%;
+            font-family    : 'HCo Gotham SSm', sans-serif;
+            font-size      : 12px;
+            line-height    : 22px;
+            font-weight    : 200;
+            // margin-right: 5px;
+            margin-right   : 7%;
+            @extend .text-tiny-body;
+        }
+    }
+}
+
+.table-header th {
+    font-size          : 14px !important;
+    text-align         : left;
+    border-bottom-color: rgba(0, 0, 0, .12);
+    color              : rgba(0, 0, 0, .54);
+    font-weight        : 500;
+}
+
+.TableCell {
+    font-family: unset !important;
+    color      : rgba(0, 0, 0, .87);
+    padding    : 20px 10px 20px 16px !important;
+
+}
+
+.TableCell.EndCustomerCell{
+    padding: 6px 25px 6px 16px !important;
+}
+
+.checkBox {
+    color: red;
+}
+
+.MuiTableCell-sizeSmall {
+    // padding: 20px 10px 20px 16px !important;
+    padding-right: 10px !important;
+}
+
+
+.productHeading {
+    border-bottom: 3px solid #DA291C;
+    // width: 75px;
+    font-weight: 500;
+    font-size: 15px;
+  }
+
+  .event-tab{
+    margin-bottom: 15px;
+}

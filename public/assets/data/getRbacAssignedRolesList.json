@@ -1,0 +1,132 @@
+[
+    {
+      "handleId": "reddy121",
+      "roles": [
+        {
+          "resourceName": "PartnerSearch",
+          "roleName": "PartnerSearchRole",
+          "hasAccess": "false"
+        },
+        {
+          "resourceName": "Orders",
+          "roleName": "OrdersRole",
+          "hasAccess": "false"
+        },
+        {
+          "resourceName": "OrdersEventStore",
+          "roleName": "OrdersRole",
+          "hasAccess": "true"
+        },
+        {
+          "resourceName": "ViewQuotes",
+          "roleName": "QuoteRole",
+          "hasAccess": "true"
+        },
+        {
+          "resourceName": "CreateQuote",
+          "roleName": "QuoteRole",
+          "hasAccess": "true"
+        },
+        {
+          "resourceName": "DeleteQuote",
+          "roleName": "QuoteRole",
+          "hasAccess": "true"
+        },
+        {
+          "resourceName": "Subscription",
+          "roleName": "SubscriptionPartnerRole",
+          "hasAccess": "true"
+        },
+        {
+          "resourceName": "SubscriptionPartner",
+          "roleName": "SubscriptionPartnerRole",
+          "hasAccess": "true"
+        },
+        {
+          "resourceName": "SubscriptionReseller",
+          "roleName": "SubscriptionResellerRole",
+          "hasAccess": "true"
+        },
+        {
+          "resourceName": "SubscriptionUsages",
+          "roleName": "SubscriptionResellerRole",
+          "hasAccess": "true"
+        },
+        {
+          "resourceName": "UsageUpload",
+          "roleName": "SubscriptionUsagesRole",
+          "hasAccess": "true"
+        },
+        {
+          "resourceName": "UsageDownload",
+          "roleName": "FileProcessingRole",
+          "hasAccess": "true"
+        }
+      ]
+    },
+    {
+      "handleId": "udisti",
+      "roles": [
+        {
+          "resourceName": "PartnerSearch",
+          "roleName": "PartnerSearchRole",
+          "hasAccess": "true"
+        },
+        {
+          "resourceName": "Orders",
+          "roleName": "OrdersRole",
+          "hasAccess": "true"
+        },
+        {
+          "resourceName": "OrdersEventStore",
+          "roleName": "OrdersRole",
+          "hasAccess": "true"
+        },
+        {
+          "resourceName": "ViewQuotes",
+          "roleName": "QuoteRole",
+          "hasAccess": "true"
+        },
+        {
+          "resourceName": "CreateQuote",
+          "roleName": "QuoteRole",
+          "hasAccess": "true"
+        },
+        {
+          "resourceName": "DeleteQuote",
+          "roleName": "QuoteRole",
+          "hasAccess": "true"
+        },
+        {
+          "resourceName": "Subscription",
+          "roleName": "SubscriptionPartnerRole",
+          "hasAccess": "true"
+        },
+        {
+          "resourceName": "SubscriptionPartner",
+          "roleName": "SubscriptionPartnerRole",
+          "hasAccess": "true"
+        },
+        {
+          "resourceName": "SubscriptionReseller",
+          "roleName": "SubscriptionResellerRole",
+          "hasAccess": "true"
+        },
+        {
+          "resourceName": "SubscriptionUsages",
+          "roleName": "SubscriptionResellerRole",
+          "hasAccess": "true"
+        },
+        {
+          "resourceName": "UsageUpload",
+          "roleName": "SubscriptionUsagesRole",
+          "hasAccess": "true"
+        },
+        {
+          "resourceName": "UsageDownload",
+          "roleName": "FileProcessingRole",
+          "hasAccess": "true"
+        }
+      ]
+    }
+  ]

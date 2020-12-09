@@ -1,0 +1,23 @@
+[
+    {
+        "subscriptionId": "S-132333",
+        "productName": "Prod Name",
+        "ratePlanName": "RatePlan Name",
+        "chargeName": "Charge Name",
+        "chargeQuantity": "2334"
+                    },
+                    {
+                        "subscriptionId": "S-132333",
+                        "productName": "Prod Name",
+                        "ratePlanName": "RatePlan Name",
+                        "chargeName": "Charge Name",
+                        "chargeQuantity": "2334"
+                                    },
+                                    {
+                                        "subscriptionId": "S-132333",
+                                        "productName": "Prod Name",
+                                        "ratePlanName": "RatePlan Name",
+                                        "chargeName": "Charge Name",
+                                        "chargeQuantity": "2334"
+                                                    }
+]

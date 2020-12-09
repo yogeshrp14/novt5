@@ -1,0 +1,21 @@
+.required {
+    font-weight: bold;
+}
+
+.required:after {
+    color  : #e32;
+    content: ' *';
+    display: inline;
+}
+
+.requiredWarning {
+    font-size: 15px;
+    color    : red;
+}
+
+.arrangeRoles {
+    width                : 850px;
+    display              : grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-gap             : 5px 0em;
+}

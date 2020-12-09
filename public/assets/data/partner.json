@@ -1,0 +1,27 @@
+[
+  {
+    "soldToId": "0560Ta",
+    "companyName": "Southwest Communications Technicians,Inc",
+    "linkId": "560"
+  },
+  {
+    "soldToId": "4471782",
+    "companyName": "Southwest Communications Technicians,Inc",
+    "linkId": "560"
+  },
+  {
+    "soldToId": "153306Ta",
+    "companyName": "Interface Technologies Northwest",
+    "linkId": "153306"
+  },
+  {
+    "soldToId": "3653839",
+    "companyName": "Interface Technologies Northwest",
+    "linkId": "153306"
+  },
+  {
+    "soldToId": "5051785",
+    "companyName": "Interface Technologies Northwest",
+    "linkId": "153306"
+  }
+]

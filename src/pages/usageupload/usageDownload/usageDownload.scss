@@ -1,0 +1,82 @@
+.card {
+    margin-top: 10px;
+    border    : 1px solid rgba(0, 0, 0, 0.125) !important;
+}
+
+.back-button {
+    background   : #fff;
+    border       : 2px solid #DA291C;
+    color        : #000;
+    margin-right : 0 !important;
+    padding      : 7px 15px 7px 15px !important;
+    border-radius: 0;
+}
+
+.react-datepicker-wrapper {
+    width:100%
+}
+
+.contactIconStyle {
+    font-size: 20px;
+    color: #6d6dff;
+    padding-left: 3px;
+}
+
+.tab-content {
+    min-height: 185px;
+}
+
+span.MuiCheckbox-colorSecondary.Mui-checked {
+    color: #DA291C!important;
+}
+
+.alert-danger {
+    color: #721c24 !important;
+    background-color: #f8d7da !important;
+    border-color: #f5c6cb !important;
+}
+
+.MuiTypography-displayBlock {
+    display: block;
+    border-bottom: 4px solid #ff0c0c !important;
+    width: 107px;
+}
+
+.MuiPickersCalendarHeader-switchHeader {
+    background: #DA291C !important;
+    color: white !important;
+}
+
+.MuiPickersCalendarHeader-iconButton {
+    background: #DA291C !important;
+    color: white !important;
+}
+
+.MuiPickersDay-daySelected {
+    background: #DA291C !important;
+    color: white !important;
+}
+
+.MuiPickersDay-current {
+    // color: #DA291C !important;;
+}
+
+.MuiFormControl-marginNormal {
+    margin: 8px!important;
+}
+
+.action-button-for-download {
+text-align: end;
+    position: absolute;
+    right: 0;
+    padding-top: 63px;
+    padding-right: 43px;
+}
+
+.MuiTableCell-stickyHeader {
+    height: 50px;
+}
+
+// .MuiTableRow-root {
+//     height: 0 !important;
+// }

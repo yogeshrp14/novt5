@@ -1,0 +1,44 @@
+.alert-heading {
+    margin-bottom: 0!important;
+    font-size: 15px !important;
+}
+
+.alert-danger {
+    color: #fff!important;
+    background-color: #f05050!important;
+    border-color: #f05050!important;
+}
+
+.MuiTypography-displayBlock {
+    display: block;
+    border-bottom: 4px solid #ff0c0c !important;
+    width: 80px;
+}
+
+.dropzone {
+    flex: 1 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    border-width: 2px;
+    border-radius: 2px;
+    border-color: #a0a0a0;
+    border-style: dashed;
+    background-color: #eeeeee;
+    color: #686868;
+    outline: none;
+    transition: border .24s ease-in-out;
+    height: 150px;
+}
+
+.fileupload-section {
+    // padding-bottom: 20px;
+    border: 1px solid #e2e2e2;
+}
+
+.file-title {
+    font-size: 15px;
+    font-weight: bold;
+    color: #f04b4b;
+}
